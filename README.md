@@ -1,5 +1,5 @@
 
-#FC Barcelona website clone
+# FC Barcelona website clone
 
 
 In the project directory, you can run:
