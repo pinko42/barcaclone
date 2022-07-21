@@ -1,0 +1,30 @@
+.store {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.store-container{
+    background-color: white;
+    width: 98%;
+    
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.store-container > h1 {
+    background: linear-gradient(90deg,#cd122d,#154284);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+    padding-top: 35px;
+}
+.card-container{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}

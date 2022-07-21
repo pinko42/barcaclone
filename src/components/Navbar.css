@@ -1,3 +1,9 @@
+.navbar-all {
+    position: sticky;
+    top: 0;
+    background-color: #181733;
+    z-index: 3;
+}
 .navbar {
     width: 100%;
     display: flex;
@@ -23,7 +29,7 @@
     flex-direction: column;
 }
 .child1 {
-    background-color: #131227;
+    background-color: #0a0a22;
     border-left: 0.05rem solid #29283d;
     
     border-bottom: 0.05rem solid #29283d;
@@ -37,7 +43,7 @@
     justify-content: space-between;
 }
 
-.social_media {
+.social-media {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -45,7 +51,7 @@
     gap: 10px;
     font-size: 23px;
 }
-.social_media > h1{
+.social-media > h1{
     margin: 0 15px 0 15px;
     font-size: 10px;
     font-weight: 500;
@@ -61,7 +67,7 @@
     gap: 10px;
     margin-right: 10px;
 }
-.language_switcher {
+.language-switcher {
     border-right: 0.1rem solid #29283d;
     padding: 0 20px 0 20px;
     height: 100%;
@@ -106,7 +112,7 @@
     font-weight: 500;
 }
 
-#search_icon {
+#search-icon {
     font-size: 35px;
     width: 100px;
     padding: 0 20px 0 20px;
@@ -114,6 +120,6 @@
 
 
 .divider {
-    height: 0.8rem;
+    height: 0.5rem;
     background: linear-gradient(90deg,#154284 0,#cd122d);
 }

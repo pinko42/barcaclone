@@ -1,22 +1,13 @@
 .container{
-    height: 500px;
+    height: 480px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: nowrap;
 }
-img{
-height: 510px;
-display: flex;
-align-items: center;
-justify-content: center;
-}
-#imgcar:hover{
-    transform: scale(1.1);
-}
 .image-style {
     width: 200px;
-    height: 510px;
+    height: 480px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,8 +15,7 @@ justify-content: center;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    align-items: center;
-    
+    align-items: center;    
 }
 #img1{
     background-image: url("../resc/img1.webp");
@@ -37,48 +27,79 @@ justify-content: center;
     background-image: url("../resc/img3.webp");
 }
 #gradient{
-    background: linear-gradient(0deg,#080e1f 6rem,rgba(8,14,31,0));
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.25541554512429976) 58%,
+        rgba(0, 0, 0, 1) 94%
+      );
     z-index: 10;
-    height: 200px;
+    height: 100%;
     width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
 
 }
     
 #img1:hover{
-    flex-grow: 4;
+    flex-grow: 6;
     background-size: auto;
     transition: all 0.3s linear;
     overflow: hidden;
 }
 #img2:hover{
-    flex-grow: 4;
+    flex-grow: 6;
     background-size: auto;
     transition: all 0.3s linear;
     overflow: hidden;
 }
 #img3:hover{
-    flex-grow: 4;
-    background-size: auto;
+    flex-grow: 6;
+    background-size: 120%;
     transition: all 0.3s linear;
     overflow: hidden;
     
 }
-.image-style:hover > p {
+#gradient:hover > p {
     display: block;
   }
-.image-style > p {
+#gradient:hover > .text {
+    font-size: 40px;
+    width: 650px;
+  }
+#gradient > p {
     text-align: center;
-    font-size: 15px;
-    width: 60%;
+    font-size: 12px;
+    margin-bottom: 10px;
+    width: 400px;
     display: none;
   }
   
 .text {
-    margin: 20px;
+    font-size: 20px;
+    width: 350px;
+    margin: 10px;
     color: white;
     text-align: center;
   }
-#icon_carousel{
-    margin: 20px;
+#icon-carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
     text-align: center;
+    font-size: 10px;
   }
+
+  #icon-carousel > h1{
+    color: #fdc52c;
+    font-size: 11px;
+    padding-right: 5px;
+  }
+
+.barcatv{
+    color: #fdc52c;
+    font-size: 20px;
+
+}

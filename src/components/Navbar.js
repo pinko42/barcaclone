@@ -17,12 +17,12 @@ import logoTransparent from '../resc/logo-transparent.png';
 
 const Navbar = () => {
   return (
-    <>
+    <div className="navbar-all">
       <div className="navbar">
         <div className="logo"><img src={logo} alt="Logo" id="logo"/> FC BARCELONA</div>
         <div className="parent">
           <div className="child1">
-            <div className="social_media">
+            <div className="social-media">
               <h1>FOLLOW FC BARCELONA</h1> <FaTwitter /> <FaFacebookSquare />{" "}
               <FaInstagram />
               <FaYoutube /> <FaTiktok /> <FaTwitch />
@@ -34,7 +34,7 @@ const Navbar = () => {
               <div className="register">
               <img src={logoTransparent} alt="Logo"/> Register as a Culer
               </div>
-              <div className="language_switcher">
+              <div className="language-switcher">
                 EN <RiArrowDownSFill />
               </div>
               <div>
@@ -49,12 +49,12 @@ const Navbar = () => {
             <div>CULERS <RiArrowDownSFill /></div>
             <div>CLUB <RiArrowDownSFill /></div>
             <div>BARCA TEAMS <RiArrowDownSFill /></div>
-            <div id="search_icon"><IoSearchOutline/></div>
+            <div id="search-icon"><IoSearchOutline/></div>
           </div>
         </div>
       </div>
       <div className="divider"></div>
-    </>
+    </div>
   );
 };
 
