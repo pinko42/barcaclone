@@ -8,6 +8,7 @@ import Carousel from "./components/Carousel/index.js";
 
 import Partner from "./components/Partner";
 import Store from "./components/Store";
+import Match from "./components/Match";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Carousel />
       <Partner />
       <Store />
+      <Match/>
     </div>
   );
 }

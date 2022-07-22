@@ -1,0 +1,84 @@
+.match {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.match-container{
+    background-color: white;
+    width: 97.5%;
+    border-radius: 12px 12px 0 0;
+    height: 550px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.match-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.match-header > .match-header-text{
+    background: linear-gradient(90deg,#cd122d,#154284);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+    padding: 35px;
+}
+.match-header-time{
+    color: black;
+    font-style: italic;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.match-header-time > h3{
+    background: linear-gradient(90deg,#cd122d,#154284);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 900;
+    padding: 12px;
+}
+.match-header-calendar{
+    color: #154284;
+    padding: 35px;
+    font-size: 15px;
+}
+.card-container{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+button{
+    background-color: rgb(245, 245, 245);
+  border: 1px solid #e2e2e2;
+  color: black;
+
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 4px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition-duration: 0.4s;
+}
+button:hover {
+    background-color: #154284; 
+    color: white;
+  }
+.match-card-all{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}

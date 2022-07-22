@@ -1,5 +1,5 @@
 import React from "react";
-import "./Navbar.css";
+import "./style.css";
 import {
   FaTwitter,
   FaFacebookSquare,
@@ -7,13 +7,12 @@ import {
   FaYoutube,
   FaTiktok,
   FaTwitch,
-  FaQuestion,
   FaRegSquare
 } from "react-icons/fa";
 import { IoPersonOutline,IoSearchOutline } from "react-icons/io5";
 import { RiArrowDownSFill,RiShareCircleLine } from "react-icons/ri";
-import logo from '../resc/logo.png';
-import logoTransparent from '../resc/logo-transparent.png';
+import logo from '../../resc/logo.png';
+import logoTransparent from '../../resc/logo-transparent.png';
 
 const Navbar = () => {
   return (

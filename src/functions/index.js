@@ -1,10 +1,10 @@
 export const style = (query, id) => {
   const active = {
-    [true && 1]: "activeOne",
-    [true && 2]: "activeTwo",
-    [true && 3]: "activeThree",
+    1: "activeOne",
+    2: "activeTwo",
+    3: "activeThree",
   };
-  return active[(query, id)];
+  return active[id];
 };
 export const animationFunction = (id, hover, query) => {
   const selector = {
@@ -23,5 +23,5 @@ export const animationFunction = (id, hover, query) => {
     displaySecond: style(hover, id) === "activeTwo" ? "flex" : "none",
     displayThird: style(hover, id) === "activeThree" ? "flex" : "none",
   };
-  return selector[(id, hover, query)] ?? "error";
+  return selector[query] ?? "error";
 };

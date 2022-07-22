@@ -1,7 +1,7 @@
 import React from "react";
-import "./Partner.css";
-import niLOGO from "../resc/nike_logo.png";
-import spLOGO from "../resc/spotify_logo.png";
+import "./style.css";
+import niLOGO from "../../resc/nike_logo.png";
+import spLOGO from "../../resc/spotify_logo.png";
 const Partner = () => {
   return (
     <div className="Partner-main">
