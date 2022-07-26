@@ -8,4 +8,4 @@ In the project directory, you can run:
 
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-<img src="./src/resc/website-home-page.JPG" alt="homepage" width="200"/>
+<img src="./src/resc/website-home-page.JPG" alt="homepage" width="1000"/>
